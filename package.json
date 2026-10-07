@@ -1,0 +1,13 @@
+{
+  "name": "omp-mercury3-setup",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Credential-free Mercury 3 preview setup for oh-my-pi",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "setup": "node setup.mjs",
+    "test": "node --test"
+  },
+  "dependencies": { "yaml": "2.9.1" }
+}
